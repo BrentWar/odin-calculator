@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.calculator {
+
+}
+*/
+
+.display {
+    color: white;
+    font-size: 50px;
+    background-color: plum;
+    text-align: end;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    display: flex;
+}
+
+button {
+    font-size: 40px;
+    aspect-ratio: 1 / 1;
+    min-width: 100px;
+    border-radius: 100%;
+    border: 2px solid plum;
+    margin: 5px 2px;
+    background-color: white;
+}
+
+.hover {
+    background-color: lightgrey;
+}
+
+.click {
+    background-color: darkgray;
+}

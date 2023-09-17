@@ -31,6 +31,24 @@ function operate(lhs, op, rhs) {
     }
 }
 
+
 let operator = "";
 let firstNumber;
 let secondNumber;
+
+let buttons = document.querySelectorAll("button");
+buttons.forEach(button => {
+    button.addEventListener("mouseenter", function() {
+        button.classList.add("hover");
+    });
+    button.addEventListener("mouseleave", function() {
+        button.classList.remove("hover");
+    });
+
+    button.addEventListener("mousedown", function() {
+        button.classList.add("click");
+    });
+    button.addEventListener("mouseup", function() {
+        button.classList.remove("click");
+    })
+});

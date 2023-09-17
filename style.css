@@ -6,11 +6,12 @@ body {
     align-items: center;
 }
 
-/*
-.calculator {
 
+.calculator {
+    background-color: rgb(218, 238, 255);
+    padding: 15px;
+    border-radius: 25px;
 }
-*/
 
 .display {
     color: white;
@@ -20,6 +21,7 @@ body {
     padding: 5px 20px;
     border-radius: 25px;
     margin-bottom: 10px;
+    min-height: 60px;
 }
 
 .row1,
